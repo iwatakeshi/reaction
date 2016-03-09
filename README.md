@@ -1,6 +1,6 @@
 # reaction
 
-A minimalistic React + JSPM boilerplate.
+A minimalistic React.js + JSPM boilerplate.
 
 ## Workflow
 
