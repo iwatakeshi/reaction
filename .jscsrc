@@ -1,6 +1,0 @@
-{
- "preset":"airbnb",
- "fix": true,
- "esnext": true,
- "disallowMultipleVarDecl": false,
-}
