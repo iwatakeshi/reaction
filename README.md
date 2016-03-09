@@ -25,7 +25,7 @@ sudo npm i jspm gulp -g
 sudo npm i && jspm i
 ```
 
-** Build and Watch **
+**Build and Watch**
 
 ```bash
 gulp develop
