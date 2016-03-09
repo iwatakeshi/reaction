@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb",
+  "globals": {
+    "__DEV__": true
+  },
+  "rules": {
+   "react/jsx-quotes": 0,
+   "react/prefer-stateless-function": 0,
+   "react/prop-types": 0,
+    "indent": [2, 2],
+    "jsx-quotes": [2, "prefer-double"],
+    "one-var": [2, { var: "always", let: "never", const: "never" }],
+    "func-names": 0
+  }
+}

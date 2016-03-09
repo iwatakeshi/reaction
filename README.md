@@ -5,9 +5,9 @@ A minimalistic React + JSPM boilerplate.
 ## Workflow
 
 * JSPM
-  * Babel (with JSX support) 
+  * Babel (with JSX support)
 * Gulp
-  * JSCS - Uses Airbnb Style preset.
+  * ~~JSCS~~ ESLint - Uses Airbnb Style preset.
   * BrowserSync
 
 
@@ -35,3 +35,7 @@ sudo npm i && jspm i
 ```bash
 gulp develop
 ```
+
+## Notes
+
+* Sometimes JSPM does not seem to build. In this case, remove the `jspm_packages` and run `jspm install`. If you have imported other components into `app.js`, then run `jspm depCache`.

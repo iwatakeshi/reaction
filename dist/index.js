@@ -11834,8 +11834,6 @@ $__System.register('1', ['46', 'e', '1a', '1d', '1e', 'c1'], function (_export) 
     execute: function () {
       'use strict';
 
-      console.log('HERE');
-
       HelloMessage = (function (_React$Component) {
         _inherits(HelloMessage, _React$Component);
 
@@ -11852,9 +11850,9 @@ $__System.register('1', ['46', 'e', '1a', '1d', '1e', 'c1'], function (_export) 
             return React.createElement(
               'h1',
               null,
-              'Hello ',
+              ' Hello ',
               this.props.name,
-              '!!'
+              '!! '
             );
           }
         }]);
@@ -11863,7 +11861,6 @@ $__System.register('1', ['46', 'e', '1a', '1d', '1e', 'c1'], function (_export) 
       })(React.Component);
 
       (function (html) {
-        console.log(!!html);
         ReactDOM.render(React.createElement(HelloMessage, { name: 'Sebastian' }), html.body);
       })(document || {});
     }
