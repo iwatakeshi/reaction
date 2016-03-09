@@ -18,6 +18,7 @@ System.config({
     "babel-runtime": "npm:babel-runtime@5.8.35",
     "core-js": "npm:core-js@1.2.6",
     "react": "npm:react@0.14.7",
+    "react-dom": "npm:react-dom@0.14.7",
     "react-router": "npm:react-router@2.0.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
@@ -94,6 +95,9 @@ System.config({
     },
     "npm:query-string@3.0.1": {
       "strict-uri-encode": "npm:strict-uri-encode@1.1.0"
+    },
+    "npm:react-dom@0.14.7": {
+      "react": "npm:react@0.14.7"
     },
     "npm:react-router@2.0.0": {
       "child_process": "github:jspm/nodelibs-child_process@0.1.0",
