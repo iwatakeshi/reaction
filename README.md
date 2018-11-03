@@ -1,5 +1,7 @@
 # reaction
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iwatakeshi/reaction.svg)](https://greenkeeper.io/)
+
 A minimalistic React.js + JSPM boilerplate.
 
 ## Workflow
